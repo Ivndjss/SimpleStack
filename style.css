@@ -1,0 +1,103 @@
+/* Styling for the navbar */
+h8k-navbar {
+    background-color: #007bff;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    /* Styling for the input and buttons */
+    .input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    }
+    
+    .flat {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+    
+    /* Styling for the stack board */
+    .stack-board {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    }
+    
+    .stack-item {
+    background-color: #007bff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+    .stack-item:hover {
+    background-color: #0069d9;
+    }
+    
+    /* Styling for the layout */
+    .layout-row {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .align-items-start {
+    align-items: flex-start;
+    }
+    
+    .justify-content-center {
+    justify-content: center;
+    }
+    
+    /* Styling for the page */
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    }
+    
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .text-center {
+    text-align: center;
+    }
+    
+    .w-50 {
+    width: 50%;
+    }
+    
+    .mt-40 {
+    margin-top: 40px;
+    }
+    
+    .w-40 {
+    width: 40%;
+    }
+    
+    /* Styling for the table */
+    table {
+    width: 100%;
+    text-align: center;
+    }
+    
+    td {
+    padding: 10px;
+    }
